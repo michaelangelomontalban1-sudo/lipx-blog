@@ -1,14 +1,19 @@
-LIPX Blog
-A responsive personal blog website built with HTML, CSS, and vanilla JavaScript. The design uses a soft pink-and-white visual style and presents everyday stories about lifestyle, technology, planning, and city moments.
-Features
-- Responsive layout for desktop, tablet, and mobile screens
-- Mobile navigation menu
-- Featured article and latest-story cards
-- Category filter for Lifestyle, Tech, Gaming, and Everyday Moments
-- Local image assets stored in the images folder
-- Semantic HTML landmarks, descriptive image text, and a skip-to-content link
-- No framework, build step, or package installation required
-Project structure
+# LIPX Blog
+
+LIPX Blog is a personal blog website that I created using HTML, CSS, and JavaScript. It has a simple pink and white design and contains different posts about lifestyle, technology, gaming, and everyday experiences.
+
+## Features
+
+- Works on desktop, tablet, and mobile devices
+- Has a navigation menu for mobile screens
+- Includes a featured article and latest blog posts
+- Has categories for Lifestyle, Tech, Gaming, and Everyday Moments
+- Uses images saved inside the images folder
+- Has a simple and clean design
+
+## Project Structure
+
+```text
 LIPX-Blog/
 ├── README.md
 ├── index.html
@@ -20,19 +25,32 @@ LIPX-Blog/
     ├── quiet-room.jpeg
     ├── city-lights.jpeg
     └── sunset-commute.jpeg
-Run the website
-1. Download or clone this repository.
-2. Keep index.html, style.css, script.js, and the images folder together in the same project directory.
-3. Open index.html in a browser. For local development, you can also open the folder in Visual Studio Code and use the Live Server extension.
-Publish with GitHub Pages
-1. Upload the complete project structure to the root of your GitHub repository.
-2. Open the repository's Settings page.
-3. Select Pages from the sidebar.
-4. Under the build and deployment section, choose Deploy from a branch.
-5. Select the main branch and the / (root) folder, then save.
-6. Wait for GitHub Pages to publish the site and open the URL shown in the Pages settings.
-Image assets
-The photographs and planning screenshot in images/ were supplied for this project and are used as local website assets. Keep their filenames and folder location unchanged unless you also update the matching image paths in index.html.
-Technologies
-- HTML5
-- CSS3
+```
+
+## How to Run
+
+1. Download or clone the repository.
+2. Make sure all the files and the images folder are in the same project folder.
+3. Open the `index.html` file in your browser.
+4. You can also use VS Code with the Live Server extension.
+
+## How to Publish Using GitHub Pages
+
+1. Open your GitHub repository.
+2. Go to Settings.
+3. Click Pages.
+4. Under Build and Deployment, select Deploy from a branch.
+5. Choose the `main` branch and `/ (root)` folder.
+6. Click Save and wait for the website to be published.
+
+## Images
+
+The images used in this website are stored in the `images` folder. These include pictures of my phone, room, city surroundings, sunset, and daily planning.
+
+Make sure to keep the image filenames the same so they will still appear properly on the website.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
